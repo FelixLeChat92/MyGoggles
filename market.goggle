@@ -1,0 +1,11 @@
+! name: Digital Goods Marketplaces Booster
+! description: Boosts results from ggsel.net, g2a.com, g2g.com, plati.market, toolsurf.com, and z2u.com for digital product searches.
+! public: true
+! author: FelixLeChat
+
+$boost=4,site=ggsel.net
+$boost=4,site=g2a.com
+$boost=4,site=g2g.com
+$boost=4,site=plati.market
+$boost=4,site=toolsurf.com
+$boost=4,site=z2u.com
