@@ -1,0 +1,20 @@
+! name: Marketplaces Goggle
+! description: Prioritizes results from ggsel.net, g2a.com, g2g.com, plati.market, toolsurf.com, and z2u.com for product searches.
+! public: true
+! author: [Your Name/Handle]
+
+$site=ggsel.net
+$site=g2a.com
+$site=g2a.com/fr
+$site=g2g.com
+$site=plati.market
+$site=toolsurf.com
+$site=z2u.com
+
+url*=ggsel.net/en/catalog/* $
+url*=g2a.com/*/item* $
+url*=g2a.com/fr/*/item* $
+url*=g2g.com/*/product/* $
+url*=plati.market/itm/* $
+url*=toolsurf.com/product/* $
+url*=z2u.com/*-* $
